@@ -1,0 +1,18 @@
+<!--
+<pre>
+
+  {{photos | json}}
+
+</pre>
+-->
+<div *ngFor="let a of album" (click)="redirecionar(a)">
+  <p [class.selecionado]="selecionado == album">{{a.title}}</p>
+  <p *ngIf="selecionado == album" >{{a.id}}</p>
+  <!--
+    <p *ngIf="selecionado == pessoa" >{{pessoa.papel}}</p>
+    <h1 >{{a.userId}} {{a.title}}</h1>
+    <img src="{{a.thumbnailUrl}}" alt="">
+  -->
+
+
+</div>
