@@ -1,0 +1,3 @@
+insert into pessoa_model (login, senha, papel) values ('fabricio', '$2a$10$ARppQC0FRWaGP4pnZqYbpuVyYOWIp4q1r2ViT3PGYK6BafD5PXFiS', 'ADMIN');
+insert into pessoa_model (login, senha, papel) values ('grazi', '$2a$10$ARppQC0FRWaGP4pnZqYbpuVyYOWIp4q1r2ViT3PGYK6BafD5PXFiS', 'ADMIN');
+insert into pessoa_model (login, senha, papel) values ('felipe', '$2a$10$ARppQC0FRWaGP4pnZqYbpuVyYOWIp4q1r2ViT3PGYK6BafD5PXFiS', 'USER');
